@@ -1,0 +1,306 @@
+[{
+  "success": true,
+  "message": "string",
+  "resource": [
+    {
+      "id": "string",
+      "studentRequestor": {
+        "id": 0,
+        "age": 0,
+        "name": "string",
+        "surname": "string",
+        "photoUrl": "string",
+        "gender": "string",
+        "about": "string",
+        "country": "string",
+        "city": "string",
+        "teamStatus": "ONTEAM",
+        "phone": {
+          "number": "string",
+          "code": "string"
+        },
+        "atributesSet": [
+          {
+            "id": "string",
+            "name": "string",
+            "value": "string",
+            "type": "string",
+            "audit": {
+              "createdAt": "2022-11-25T11:26:15.024Z",
+              "updatedAt": "2022-11-25T11:26:15.024Z"
+            }
+          }
+        ]
+      },
+      "team": {
+        "id": 0,
+        "name": "string"
+      },
+      "roommateStatuses": [
+        {
+          "id": "string",
+          "roommate": {
+            "id": 0,
+            "profile": {
+              "id": 0,
+              "age": 0,
+              "name": "string",
+              "surname": "string",
+              "photoUrl": "string",
+              "gender": "string",
+              "about": "string",
+              "country": "string",
+              "city": "string",
+              "teamStatus": "ONTEAM",
+              "phone": {
+                "number": "string",
+                "code": "string"
+              },
+              "atributesSet": [
+                {
+                  "id": "string",
+                  "name": "string",
+                  "value": "string",
+                  "type": "string",
+                  "audit": {
+                    "createdAt": "2022-11-25T11:26:15.024Z",
+                    "updatedAt": "2022-11-25T11:26:15.024Z"
+                  }
+                }
+              ]
+            }
+          },
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  ]
+},{
+  "success": true,
+  "message": "string",
+  "resource": {
+    "id": "string",
+    "teamRequested": {
+      "id": 0,
+      "name": "string",
+      "roommates": [
+        {
+          "id": 0,
+          "profile": {
+            "id": 0,
+            "age": 0,
+            "name": "string",
+            "surname": "string",
+            "photoUrl": "string",
+            "gender": "string",
+            "about": "string",
+            "country": "string",
+            "city": "string",
+            "teamStatus": "ONTEAM",
+            "phone": {
+              "number": "string",
+              "code": "string"
+            },
+            "atributesSet": [
+              {
+                "id": "string",
+                "name": "string",
+                "value": "string",
+                "type": "string",
+                "audit": {
+                  "createdAt": "2022-11-25T11:37:38.764Z",
+                  "updatedAt": "2022-11-25T11:37:38.764Z"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "duties": [
+        {
+          "id": "string",
+          "title": "string",
+          "description": "string",
+          "status": "PENDING",
+          "dateline": "2022-11-25T11:37:38.764Z",
+          "roommateList": [
+            {
+              "id": 0,
+              "profile": {
+                "id": 0,
+                "age": 0,
+                "name": "string",
+                "surname": "string",
+                "photoUrl": "string",
+                "gender": "string",
+                "about": "string",
+                "country": "string",
+                "city": "string",
+                "teamStatus": "ONTEAM",
+                "phone": {
+                  "number": "string",
+                  "code": "string"
+                },
+                "atributesSet": [
+                  {
+                    "id": "string",
+                    "name": "string",
+                    "value": "string",
+                    "type": "string",
+                    "audit": {
+                      "createdAt": "2022-11-25T11:37:38.764Z",
+                      "updatedAt": "2022-11-25T11:37:38.764Z"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "audit": {
+            "createdAt": "2022-11-25T11:37:38.764Z",
+            "updatedAt": "2022-11-25T11:37:38.764Z"
+          }
+        }
+      ]
+    },
+    "roommateStatuses": [
+      {
+        "id": "string",
+        "roommate": {
+          "id": 0,
+          "profile": {
+            "id": 0,
+            "age": 0,
+            "name": "string",
+            "surname": "string",
+            "photoUrl": "string",
+            "gender": "string",
+            "about": "string",
+            "country": "string",
+            "city": "string",
+            "teamStatus": "ONTEAM",
+            "phone": {
+              "number": "string",
+              "code": "string"
+            },
+            "atributesSet": [
+              {
+                "id": "string",
+                "name": "string",
+                "value": "string",
+                "type": "string",
+                "audit": {
+                  "createdAt": "2022-11-25T11:37:38.764Z",
+                  "updatedAt": "2022-11-25T11:37:38.764Z"
+                }
+              }
+            ]
+          }
+        },
+        "status": "PENDING"
+      }
+    ],
+    "status": "PENDING",
+    "studentRequestor": {
+      "id": 0,
+      "age": 0,
+      "name": "string",
+      "surname": "string",
+      "photoUrl": "string",
+      "gender": "string",
+      "about": "string",
+      "country": "string",
+      "city": "string",
+      "teamStatus": "ONTEAM",
+      "phone": {
+        "number": "string",
+        "code": "string"
+      },
+      "atributesSet": [
+        {
+          "id": "string",
+          "name": "string",
+          "value": "string",
+          "type": "string",
+          "audit": {
+            "createdAt": "2022-11-25T11:37:38.764Z",
+            "updatedAt": "2022-11-25T11:37:38.764Z"
+          }
+        }
+      ]
+    }
+  }
+},{
+  "success": true,
+  "message": "string",
+  "resource": {
+    "id": "string",
+    "status": "PENDING",
+    "roommateStatuses": [
+      {
+        "roommate": {
+          "id": 0,
+          "profile": {
+            "id": 0,
+            "age": 0,
+            "name": "string",
+            "surname": "string",
+            "photoUrl": "string",
+            "gender": "string",
+            "about": "string",
+            "country": "string",
+            "city": "string",
+            "teamStatus": "ONTEAM",
+            "phone": {
+              "number": "string",
+              "code": "string"
+            },
+            "atributesSet": [
+              {
+                "id": "string",
+                "name": "string",
+                "value": "string",
+                "type": "string",
+                "audit": {
+                  "createdAt": "2022-11-25T11:53:29.840Z",
+                  "updatedAt": "2022-11-25T11:53:29.840Z"
+                }
+              }
+            ]
+          }
+        },
+        "status": "PENDING"
+      }
+    ],
+    "studentRequestor": {
+      "id": 0,
+      "age": 0,
+      "name": "string",
+      "surname": "string",
+      "photoUrl": "string",
+      "gender": "string",
+      "about": "string",
+      "country": "string",
+      "city": "string",
+      "teamStatus": "ONTEAM",
+      "phone": {
+        "number": "string",
+        "code": "string"
+      },
+      "atributesSet": [
+        {
+          "id": "string",
+          "name": "string",
+          "value": "string",
+          "type": "string",
+          "audit": {
+            "createdAt": "2022-11-25T11:53:29.840Z",
+            "updatedAt": "2022-11-25T11:53:29.840Z"
+          }
+        }
+      ]
+    }
+  }
+}
+]

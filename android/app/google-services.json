@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239713403758",
+    "project_id": "limaroom-a2a26",
+    "storage_bucket": "limaroom-a2a26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239713403758:android:6019f269426d9bbd07377f",
+        "android_client_info": {
+          "package_name": "LimaRoom.Movil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239713403758-iftq2cs5mjuk23hdej7bok4raccic3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGU7wQ-PH_wB8-KyiLMKiRcy3qA2e_YZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239713403758-7kbnlfggj9ldeeki8n539nvqne35pau8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
