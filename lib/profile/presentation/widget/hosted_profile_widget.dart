@@ -56,9 +56,9 @@ class HostedProfileWidget extends StatelessWidget {
               ),
             ],
           ),
-          if (userProfile.photoUrl != null) ...[
-            CircleProfileAvatar(image: userProfile.photoUrl!),
-          ],
+          // if (userProfile.photoUrl != null) ...[
+          //   CircleProfileAvatar(image: userProfile.photoUrl!),
+          // ],
         ],
       ),
     );
