@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.RZDN.meet_your_roommate_app">
+    package="LimaRoom.Movil">
    <application
         android:label="meet_your_roommate_app"
         android:name="${applicationName}"

@@ -47,7 +47,7 @@ class _UserMatchingWidgetState extends State<UserMatchingWidget> {
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             image: NetworkImage(
-                                widget.profiles[index].photoUrl!.isNotEmpty
+                                widget.profiles[index].photoUrl != null
                                     ? widget.profiles[index].photoUrl!
                                     : imagedefaul),
                           ),
@@ -61,16 +61,20 @@ class _UserMatchingWidgetState extends State<UserMatchingWidget> {
                           children: [
                             Text(
                               "${widget.profiles[index].name}, ${widget.profiles[index].age}",
-                              style: const TextStyle(
-                                color: Colors.white,
+                              style: TextStyle(
+                                color: widget.profiles[index].photoUrl != null
+                                    ? Colors.white
+                                    : Colors.black,
                                 fontSize: 30,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
                             Text(
                               "${widget.profiles[index].country}  -  ${widget.profiles[index].city}",
-                              style: const TextStyle(
-                                color: Colors.white,
+                              style: TextStyle(
+                                color: widget.profiles[index].photoUrl != null
+                                    ? Colors.white
+                                    : Colors.black,
                                 fontSize: 18,
                                 fontWeight: FontWeight.w400,
                               ),
